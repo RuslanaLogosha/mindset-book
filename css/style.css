@@ -39,6 +39,11 @@ li {
   font-size: large;
 }
 
+p {
+  font-size: large;
+  padding-top: 5px;
+}
+
 .header-list {
   display: flex;
   list-style: none;
@@ -159,6 +164,7 @@ li {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .article {
@@ -199,3 +205,19 @@ li {
   .box-type2 {
    display: block;
   }
+.theme-name {
+  font-style: italic;
+  font-size: large;
+}
+
+.first-box-item {
+  max-width: 40%;
+}
+
+.second-box-item {
+max-width: 75%;
+}
+
+.box-names {
+  background-image: linear-gradient(to right, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168));
+}
